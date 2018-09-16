@@ -1,0 +1,5 @@
+export const lixinyuan = 'http://localhost:3000/api/index'
+export const SHOPCARTSAPI = 'http://localhost:3000/api/cart'
+export const SHOPCARTSAPI1 = 'http://localhost:3000/api/sale'
+export const SHOPCARTSAPI2 = 'http://localhost:3000/api/show'
+export const SHOPCARTSAPO = 'http://localhost:3000/api/guang'

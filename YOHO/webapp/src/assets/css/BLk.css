@@ -1,0 +1,39 @@
+/* .BLK{
+    display: flex;
+    height: 100%;
+    background: #fff;
+    flex-direction: column;
+} */
+/* .blkHeader{
+    height: 0.45rem;
+    width: 100%;
+    background: #3f3f3f;
+    display: flex;
+}
+.blkHeader i{
+    display: block;
+    height: 0.45rem;
+    width: 0.45rem;
+    color: #fff;
+    font-size: 0.2rem;
+    line-height: 0.45rem;
+}
+.blkHeader i:first-of-type{
+    padding-left: 0.09rem;
+}
+.blkHeader div{
+    height: 0.45rem;
+}
+.blkHeader div i{
+    font-weight: 900;
+    float: left;
+    width: 0.3rem;
+
+}
+.blkHeader p{
+    flex: 1;
+    font-size: 0.16rem;
+    text-align: center;
+    color: #fff;
+    line-height: 0.45rem;
+} */

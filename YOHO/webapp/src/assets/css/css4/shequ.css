@@ -1,0 +1,306 @@
+body,div,p,ol,ul,li,dl,dt,dd,form,table,tr,td,hr,h1,h2,h3,h4,h5,h6,fieldset,img,input,figure{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size: 26.67vw;
+}
+html,body{
+	height: 100%;
+}
+body{
+	font-family: "Microsoft Yahei",Arial;
+	background: #f6f6f6;
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+}
+a{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+img{
+	border:none;
+	display: block;
+}
+/* 头部 */
+.header{
+    width: 100%;
+    height: 0.44rem;
+    background: #3f3f3f;
+}
+.headerBox{
+    width: 3.4rem;
+    height: 0.44rem;
+    margin: 0 auto;
+    background: #3f3f3f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.header i{
+    font-size: 0.25rem;
+    color: #fff;
+}
+.header a{
+	display: block;
+    color: #fff;
+	font-size: 0.18rem;
+	width: 0.6rem;
+	text-align: center;
+}
+/* 下横杠 */
+.xb2 {
+    width: 0.45rem;
+    height: 0.03rem;
+    background: #fff;
+    position: absolute;
+    left: 1.47rem;
+    bottom: 0;
+}
+.topImg{
+    width: 100%;
+    height: 1.8rem;
+}
+.topImg img{
+    width: 100%;
+    height: 100%;
+}
+/* 轮播板块 */
+.bannerBox{
+    width: 100%;
+    height: 1.8rem;
+    background: pink;
+}
+
+/* 热门推荐 */
+.hot{
+    width: 100%;
+    background: #fff;
+    border-top:1px solid #e0e0e0;
+    border-bottom:1px solid #e0e0e0;
+}
+.hotTop{
+    width: 3.63rem;
+    height: 0.35rem;
+    /* background: red; */
+    display: flex;
+    margin-left: 0.12rem;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+.hotTop i{
+    color: #000;
+    font-size: 0.18rem;
+}
+.hotTop span{
+    color: #000;
+    font-size: 0.14rem;
+}
+.hotMid{
+    width:3.5rem;
+    height: 0.5rem;
+    /* background: red; */
+    margin:0 auto;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dingzhi{
+    width: 0.45rem;
+    height: 0.25rem;
+    background: #191919;
+    color: #fff;
+    font-size: 0.14rem;
+    text-align: center;
+    line-height: 0.25rem;
+    /* position: absolute; */
+    /* right: 0; */
+}
+.hotMidName{
+    display: block;
+    width: 2rem;
+    height: 0.5rem;
+    display: flex;
+    /* align-items: center; */
+    position: relative;
+}
+.hotMidNameImg{
+    width: 0.4rem;
+    height: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+.hotMidName img {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+}
+.hotMidNameUsername {
+    color: #000;
+    font-size: 0.16rem;
+    display: block;
+    width: 1rem;
+    position: absolute;
+    left: 0.5rem;
+    top:0.05rem;
+}
+.hotMidNameUserTime {
+    color: #8b8b8b;
+    font-size: 0.12rem;
+    display: block;
+    width: 1rem;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.28rem;
+}
+.hotBot{
+    width: 3.5rem;
+    margin: 0 auto;
+    /* height: 1rem; */
+    /* background: red; */
+}
+.hotBotH3{
+    color: #000;
+    font-size: 0.16rem;
+    line-height: 0.25rem;
+}
+.hotBotP{
+    color: #888888;
+    font-size: 0.15rem;
+    line-height: 0.25rem;
+}
+.hotBotImg{
+    width:1rem;
+    height: 2rem;
+}
+.hotBotB{
+    width: 100%;
+    height: 0.4rem;
+    /* background: red; */
+    position: relative;
+}
+.hotBotBspan{
+    padding: 0.01rem 0.05rem;
+    background: #e9e9e9;
+    font-size: 0.12rem;
+    position: absolute;
+    top: 0.1rem;
+}
+.icon-pinglun{
+    position: absolute;
+    right: 0.9rem;
+    top: 0.07rem;
+    font-size: 0.2rem;
+    color: #8b8b8b;
+}
+.icon-dianzan{
+    position: absolute;
+    right: 0.28rem;
+    top: 0.09rem;
+    /* font-size: 0.2rem; */
+    color: #8b8b8b;
+}
+.hotBotBspan2{
+    font-size: 0.12rem;
+    color: #8b8b8b;
+    position: absolute;
+    top: 0.1rem;
+    right: 0.65rem;
+}
+.hotBotBspan3{
+    font-size: 0.12rem;
+    color: #8b8b8b;
+    position: absolute;
+    top: 0.1rem;
+    right: 0rem;
+}
+/* 用户发表内容 */
+.userContent{
+    width: 100%;
+    /* height: 3rem; */
+    background: #f7f7f7;
+    border-bottom: 1px solid #e0e0e0;
+}
+.userContentName{
+    width: 3.5rem;
+    margin: 0 auto;
+}
+.userContentNameTop {
+    height: 0.6rem;
+    width: 3.5rem;
+    position: relative;
+}
+.userContentNameImg{
+    width: 0.5rem;
+    height: 0.6rem;
+    display: flex;
+    align-items: center;
+}
+.userContentNameImg img{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+}
+.userContentNameId{
+    color: #000;
+    font-size: 0.16rem;
+    display: block;
+    width: 1rem;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.1rem;
+}
+.userContentNameTime{
+    color: #8b8b8b;
+    font-size: 0.12rem;
+    display: block;
+    width: 1rem;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.33rem;
+}
+.userContentNameMid{
+    width: 100%;
+}
+.userContentNameMidH3{
+    color: #000;
+    font-size: 0.16rem;
+    line-height: 0.25rem;
+}
+.userContentNameMidP{
+    color: #888888;
+    font-size: 0.15rem;
+    line-height: 0.2rem;
+}
+.userContentNameMidImg{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.userContentNameMidImg img{
+    width: 1.72rem;
+    height: 1.6rem;
+    margin-top: 0.06rem;
+}
+.userContentNameMidImg2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.userContentNameMidImg2 img {
+    width: 1.15rem;
+    height: 1rem;
+    margin-top: 0.06rem;
+}
+/* 滑动部分 */
+.boxOne {
+    flex: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

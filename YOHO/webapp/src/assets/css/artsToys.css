@@ -1,0 +1,45 @@
+.artsToys{
+    display: flex;
+    height: 100%;
+    background: #fff;
+    flex-direction: column;
+}
+.artsToysHeader{
+    height: 0.45rem;
+    width: 100%;
+    background: #3f3f3f;
+    display: flex;
+}
+.artsToysHeader i{
+    display: block;
+    height: 0.45rem;
+    width: 0.45rem;
+    color: #fff;
+    font-size: 0.2rem;
+    line-height: 0.45rem;
+}
+.artsToysHeader i:first-of-type{
+    padding-left: 0.09rem;
+}
+.artsToysHeader p{
+    flex: 1;
+    font-size: 0.16rem;
+    text-align: center;
+    color: #fff;
+    line-height: 0.45rem;
+}
+.artsToysSec{
+    height: 100%;
+    overflow-y: scroll;
+}
+.artsToysSec a{
+    overflow: hidden;
+    display: block;
+}
+.artsToysSec img{
+    width: 100%;
+    padding: 0.17rem 0;
+}
+.artsToysSec a:first-of-type img{
+    padding-top: 0;
+}

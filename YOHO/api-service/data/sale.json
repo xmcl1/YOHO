@@ -1,0 +1,111 @@
+[
+  {
+    "showBox":[
+         { "pic":"../../../static/img/img3/discount.jpg"},
+         {"pic":"../../../static/img/img3/lack_sale.jpg"}
+    ],
+    "discountLis":[
+        {
+          "pic":"../../../static/img/img3/discount_one.jpg",
+          "title1":"清凉潮TEE  5折封顶",
+          "title2":"剩3天23小时"
+        },
+        {
+          "pic":"../../../static/img/img3/discount_two.jpg",
+          "title1":"百变潮流  5折封顶",
+          "title2":"剩1天23小时"
+        },
+        {
+          "pic":"../../../static/img/img3/discount_three.jpg",
+          "title1":"潮流一夏  5折封顶",
+          "title2":"剩2天23小时"
+        },
+        {
+          "pic":"../../../static/img/img3/discount_four.jpg",
+          "title1":"潮牌激价",
+          "title2":"剩3天23小时"
+        },
+        {
+          "pic":"../../../static/img/img3/discount_nine.jpg",
+          "title1":"viishow",
+          "title2":"剩1天23小时"
+        },
+      {
+        "pic":"../../../static/img/img3/discount_six.jpg",
+        "title1":"Gennax",
+        "title2":"剩4天23小时"
+      },
+      {
+        "pic":"../../../static/img/img3/discount_sev.jpg",
+        "title1":"清凉潮TEE  5折封顶",
+        "title2":"剩2天23小时"
+      },
+      {
+        "pic":"../../../static/img/img3/discount_eight.jpg",
+        "title1":"AK CLUB",
+        "title2":"剩1天23小时"
+      },
+      {
+        "pic":"../../../static/img/img3/discount_nine.jpg",
+        "title1":"XXXTRENTA",
+        "title2":"剩4天23小时"
+      }
+    ],
+    "aLis":[
+      {
+        "pic":"../../../static/img/img3/clothes29.jpg",
+        "title":"converse Chuck Taylor All Star 70 高帮休闲鞋",
+        "price1":"399.00",
+        "price2":"669.00"
+      },
+      {
+        "pic":"../../../static/img/img3/clothes28.jpg",
+        "title":"converse Chuck Taylor All Star 高帮休闲鞋",
+        "price1":"299.00",
+        "price2":"339.00"
+      },
+      {
+        "pic":"../../../static/img/img3/clothes26.jpg",
+        "title":"converse Chuck Taylor All Star 70 高帮休闲鞋",
+        "price1":"399.00",
+        "price2":"669.00"
+      },
+      {
+        "pic":"../../../static/img/img3/clothes24.jpg",
+        "title":"converse Chuck Taylor All Star 高帮休闲鞋",
+        "price1":"566.00",
+        "price2":"799.00"
+      },
+      {
+        "pic":"../../../static/img/img3/clothes20.jpg",
+        "title":"converse Chuck Taylor All Star 70 高帮休闲鞋",
+        "price1":"199.00",
+        "price2":"399.00"
+      },
+      {
+        "pic":"../../../static/img/img3/clothes19.jpg",
+        "title":"converse Chuck Taylor All Star 高帮休闲鞋",
+        "price1":"299.00",
+        "price2":"399.00"
+      },
+      {
+        "pic":"../../../static/img/img3/clothes11.jpg",
+        "title":"converse Chuck Taylor All Star 70 高帮休闲鞋",
+        "price1":"499.00",
+        "price2":"599.00"
+      },
+      {
+        "pic":"../../../static/img/img3/clothes7.jpg",
+        "title":"converse Chuck Taylor All Star 高帮休闲鞋",
+        "price1":"499.00",
+        "price2":"899.00"
+      },
+      {
+        "pic":"../../../static/img/img3/clothes6.jpg",
+        "title":"converse Chuck Taylor All Star 70 高帮休闲鞋",
+        "price1":"199.00",
+        "price2":"499.00"
+      }
+    ]
+  }
+]

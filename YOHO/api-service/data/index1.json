@@ -1,0 +1,39 @@
+{
+    "header": [
+        {
+            "icon": "iconfont icon-huo",
+            "sale": "热门发售"
+        },
+        {
+            "icon": "iconfont icon-shandian1",
+            "sale": "即将发售"
+        },
+        {
+            "icon": "iconfont icon-shengqian",
+            "sale": "已经发售"
+        }
+    ],
+    "section": [
+        {
+            "icon": "iconfont icon-shijian",
+            "saletime": "9月6日发售",
+            "pic":"/static/img/img1/sale1.jpg",
+            "discription": "【“撕破”一成不变】Converse x Dr. Woo Chuck 70 HI 黑色 突破创意灵感",
+            "price": "￥799"
+        },
+        {
+            "icon": "iconfont icon-shijian",
+            "saletime": "9月11日发售",
+            "pic":"/static/img/img1/sale1.jpg",
+            "discription": "Converse x Dr. Woo Chuck 70 HI 黑色 突破创意灵感",
+            "price": "￥499"
+        },
+        {
+            "icon": "iconfont icon-shijian",
+            "saletime": "9月21日发售",
+            "pic":"/static/img/img1/sale1.jpg",
+            "discription": "Dr. Woo Chuck 70 HI 黑色 突破创意灵感",
+            "price": "￥899"
+        }
+    ]
+}

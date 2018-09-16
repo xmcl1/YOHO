@@ -1,0 +1,27 @@
+footer{
+    height: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    border-top: 2px solid #e3e3e3;
+    text-align: center;
+}
+footer a{
+    display: block;
+    width: 20%;
+}
+footer a span{
+    color: #b0b0b0;
+    display: block;
+    width: 100%;
+    font-size: 0.09rem;
+    float: left;
+    line-height: 0.15rem;
+}
+footer a img{
+    margin: 0.04rem auto 0;
+    height: 0.28rem;
+}
+footer .checked{
+    color: #444444;
+}

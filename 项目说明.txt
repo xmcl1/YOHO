@@ -1,0 +1,21 @@
+项目名称：YOHO（有货app）
+命名方法：（驼峰命题）
+
+页面组件名：    1.artsToys	
+		2.blk	
+		3.cart	
+		4.footer   
+		5.guang   
+		6.index   
+		7.innerBox
+   		8.leftList   
+		9.limitSale   
+		10.my   
+		11.sale   
+		12.shequ  	
+		13.show  
+		14.sorts
+成员：
+	组长：冯炳权
+	组员：贺康、李欣媛、张廷杰
+

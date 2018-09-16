@@ -1,0 +1,269 @@
+@charset "utf-8";
+
+.cart{
+  height: 100%;
+  width: 100%;
+  display: -webkit-flex;
+  flex-direction:column;
+}
+
+/* 头部
+.header{
+    width: 100%;
+    height: 0.45rem;
+    background: #3f3f3f;
+    box-sizing: border-box;
+    padding: 0 0.16rem;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.hLeftc{
+	width: 6%;
+}
+.hLeftc img{
+  width: 100%;
+}
+.hCenterc{
+	flex:1;
+	text-align: center;
+	text-indent: 0.2rem;
+	font-size: 0.15rem;
+	color: #ffffff;
+}
+.hRightc{
+	width: 10%;
+}
+.hRightc a{
+	color: #ffffff;
+	font-size: 0.12rem;
+	display: block;
+  width: 100%;
+  text-align: right;
+} */
+/*中间主体*/
+.content{
+    width: 100%;
+    flex:1;
+	overflow-y: scroll;
+    overflow-x:hidden;
+    background: #f0f0f0;
+}
+.shopping{
+    width: 100%;
+    padding-top: 0.35rem;
+}
+.activity{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0.12rem;
+    height: 0.35rem;
+    background: #fe8083;
+    position: fixed;
+    left: 0;
+    top: 0.44rem;
+    font-size: 0.11rem;
+    color: #ffffff;
+    letter-spacing: 1px;
+    display: -webkit-flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index: 99;
+}
+.activity a{
+    color: #ffffff;
+    width: 15%;
+    background: url(../img/img3/pink_detail.png) no-repeat right 0.03rem;
+    background-size: 0.08rem 0.14rem;
+}
+.shopping input{
+    width: 0.21rem;
+    height: 0.21rem;
+    outline: none;
+    -webkit-appearance:none;
+    margin-top: 0.4rem;
+}
+.shopping .check{
+    background: url(../img/img3/before.png);
+    background-size: 0.21rem 0.21rem;
+}
+.shopping .check:checked{
+    background: url(../img/img3/after.png);
+    background-size: 0.21rem 0.21rem;
+}
+.shopInfo{
+    width: 100%;
+    display: -webkit-flex;
+    justify-content:space-between;
+    /* -webkit-align-items:center; */
+    box-sizing: border-box;
+    padding: 0.1rem 0.12rem;
+    background: #ffffff;
+    font-size: 0.12rem;
+    color: #b7b7b7;
+    margin-bottom: 0.1rem;
+}
+.shopInfoImg{
+    width: 0.8rem;
+    height: 1.05rem;
+}
+.shopInfoImg a{
+    width: 100%;
+}
+.shopInfoImg a img{
+    width: 100%;
+}
+.shopInfoTxt{
+    width: 50%;
+    padding-top: 0.08rem;
+    line-height: 0.2rem;
+}
+.shopInfoTxt h4{
+    color: #505050;
+}
+.shopInfoTxt .proPrice{
+    color: #d1061a;
+}
+.numBox{
+    padding-top: 0.08rem;
+    width: 0.18rem;
+}
+
+.shopPrice{
+    width: 100%;
+    height: 0.43rem;
+    background: #ffffff;
+    margin-bottom: 0.1rem;
+    font-size: 0.11rem;
+    color: #444444;
+    box-sizing: border-box;
+    padding-left: 0.14rem;
+    display: -webkit-flex;
+    align-items:center;  
+}
+
+.recommend1{
+    width: 100%;
+    line-height: 0.62rem;
+    background: #ffffff;
+}
+.recommend1 img{
+    width: 0.46rem;
+    height: 0.62rem;
+    margin-right: 0.16rem;
+}
+.recommend1 .look{
+    width: 100%;
+    font-size: 0.16rem;
+    color: #2f332f;
+    padding: 0.1rem 0;
+    padding-left: 0.1rem;
+    display: -webkit-flex;
+}
+.product{
+	width: 100%;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+}
+.product a{
+    width: 50%;
+    padding: 0.18rem 0.1rem;
+	background: #ffffff;
+	box-sizing: border-box;
+}
+.product a img{
+	width: 1.67rem;
+	height: 2.16rem;
+}
+.product .cart{
+    width: 0.42rem;
+    height: 0.25rem;
+    position: absolute;
+    right: 0.02rem;
+    top: 0.05rem;
+}
+.product .cart img{
+   width: 100%;
+   height: 100%;
+}
+.product a p:first-of-type{
+	font-size: 0.14rem;
+	color: #404440;
+	line-height: 0.16rem;
+	padding-top: 0.14rem;
+}
+.product a p:last-child{
+	width: 1.65rem;
+	line-height: 0.35rem;
+	font-size: 0.11rem;
+    color: #ff0303;
+    position: relative;
+}
+.product a p:last-child span:nth-child(2){
+	color: #c8c9c8;
+	text-decoration: line-through;
+	margin-left: 0.1rem;
+}
+
+
+
+
+/* 底部结算 */
+.paymentBar{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0.1rem;
+    display: -webkit-flex;
+    justify-content:space-between;
+    align-items:center;
+    height: 0.67rem;
+    background: #ffffff;
+    font-size: 0.11rem;
+    color: #474747;
+    border-top: 1px solid #ececec;
+}
+.paymentBar a{
+    width: 0.73rem;
+    height: 0.37rem;
+    background: #d0011a;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 0.37rem;
+}
+.paymentBar i{
+    font-style: normal;
+}
+.allCheckbox{
+    width: 0.25rem;
+}
+.allCheckbox input{
+    width: 0.21rem;
+    height: 0.21rem;
+    outline: none;
+    -webkit-appearance:none;
+}
+.allCheckbox .check{
+    background: url(../img/img3/before.png);
+    background-size: 0.21rem 0.21rem;
+}
+.allCheckbox .check:checked{
+    background: url(../img/img3/after.png);
+    background-size: 0.21rem 0.21rem;
+}
+.shopTotal{
+    flex:1;
+    box-sizing: border-box;
+    padding-right: 0.1rem;
+}
+.shopTotal span{
+    display: block;
+    color: #737373;
+    text-align: right;
+}
+.shopTotal span:first-child{
+    color: #d0011a;
+    font-size: 0.14rem;
+    font-weight: bold;
+    line-height: 0.22rem;
+}
